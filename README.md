@@ -160,7 +160,7 @@ Splunk Search Head  ◀──── rsyslog (:514) ◀──── Network Devic
 
 The screenshot below confirms **108 Windows Security events** (EventCode 4798) successfully ingested and parsed in the Splunk Search Head, with fields like `LogName`, `EventCode`, `ComputerName`, `Account_Name`, and `sourcetype=WinEventLog:Security` fully extracted.
 
-> 📷 *Screenshot: Splunk Enterprise Search Head — Live event ingestion from Windows endpoint (host=Suresh, 05/31/2026)*
+> ![Splunk Search Head](splunk-search-head.png)
 
 ---
 
